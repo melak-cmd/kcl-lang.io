@@ -7,5 +7,5 @@ config = app.App {
         ports = [{containerPort = 80}]
     }
     service.ports = [{ port = 80 }]
-    service.type = "LoadBalancer" 
+#   service.type = "LoadBalancer" 
 }
